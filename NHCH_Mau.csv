@@ -1,0 +1,5 @@
+﻿Chapter,QuestionText,OptionA,OptionB,OptionC,OptionD,CorrectOption
+Chương 1,Hệ điều hành nào mã nguồn mở?,Windows,Linux,MacOS,iOS,B
+Chương 1,RAM là bộ nhớ gì?,Lưu trữ vĩnh viễn,Đọc và ghi tạm thời,Chỉ đọc,Xử lý đồ họa,B
+Chương 2,Ngôn ngữ Python ra mắt năm nào?,1991,1995,1989,2000,A
+Chương 2,"Trong Python, từ khóa nào định nghĩa hàm?",func,function,def,define,C
