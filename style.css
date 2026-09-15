@@ -1,0 +1,33 @@
+#canvas-csv-importer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+    width: 300px;
+}
+#canvas-csv-importer h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #2D3B45;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+#canvas-csv-importer button {
+    background: #008EE2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+#canvas-csv-importer button:hover {
+    background: #0077c0;
+}

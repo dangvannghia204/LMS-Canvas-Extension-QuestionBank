@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas LMS Quiz Importer",
+  "version": "1.0",
+  "description": "Nhúng giao diện import CSV ngân hàng câu hỏi trực tiếp vào Canvas.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Mở hướng dẫn Canvas Importer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
